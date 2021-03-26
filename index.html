@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Noto+Sans:ital,wght@0,700;1,400&family=Source+Sans+Pro:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Lorre Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1><span>Hugg</span>Weather</h1>
+      <form class="change-location">
+        <label for="city">Enter a city for weather information</label>
+        <input type="text" name="city" autocomplete="off" />
+      </form>
+      <div class="card-wrapper">
+        <div class="card">
+          <div class="time">
+            <img class="day-night" src="" alt="" />
+          </div>
+          <div class="card-body">
+            <div class="icon"></div>
+            <div class="details">
+              <h5 class="font-size">City Name</h5>
+              <div class="weather">Weather conditions</div>
+              <div>
+                <span>temp</span>
+                <span>&deg;C</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>Weather App By Lorre</p>
+      </div>
+    </div>
+    <script src="./scripts/fetch.js"></script>
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>
